@@ -16,3 +16,17 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/produtos', function () {
+    $busca = request('search');
+    return view('produtos',['busca' =>$busca]);
+});
+
+Route::get('/contato', function () {
+    return view('contato');
+});
+
+Route::get('/produtos/{id?}', function ($id = null) {
+    return view('produto', ['id'=> $id]);
+});
+
