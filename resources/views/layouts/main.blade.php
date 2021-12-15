@@ -22,11 +22,20 @@
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbar">
                     <a href="/"class="navbar-brand">
-                        <img src="/img/evento1,jpg" alt="banner de eventos">
+                        <img src="/img/logo.png" alt="banner de eventos" width="50" height="50">
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a href="/" class="nav-link"></a>
+                            <a href="/" class="nav-link">Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/events/create" class="nav-link">Criar Eventos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Entrar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Cadastrar</a>
                         </li>
                     </ul>
                 </div>
@@ -36,5 +45,6 @@
             <footer>
                 <p>Sanches Eventos &copy; 2021</p>
             </footer>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     </body>
 </html>
