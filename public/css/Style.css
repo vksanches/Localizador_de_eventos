@@ -90,11 +90,11 @@ header{
 }
 
 #events-container .card{
-    flex: 1 1 0;
+    flex: 1 1 24%;
     max-width: 25%;
     border-radius: 10px;
     padding: 0px;
-    margin: 5px;
+    margin: 0.5%;
 }
 #events-container img{
     max-height: 150px;
@@ -130,6 +130,46 @@ header{
 #event-create-container textarea {
     font-size: 12px;
 }
+
+/* Event page*/
+#image-container,
+#info-container{
+    margin-top: 30px;
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p{
+    margin:0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3,
+#description-containerh3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon{
+    font-size: 20px;
+    color: #F2A340;
+    margin-right: 5px;
+
+}
+
+#info-container
+#event-submit{
+    margin: 20px 0;
+}
+
 footer{
     text-align: center;
     background-color: #353E48;
